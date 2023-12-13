@@ -5,27 +5,28 @@ import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
 import logo from "../logo.svg";
 
-function BasicExample() {
+function Header() {
   return (
     <Navbar expand="lg" className="navbar-color ">
       <Container>
-      <div class="container">
+        <Navbar.Brand>
+          <Link to={"/"} className="navbar-title">
             <img src={logo} alt="logo" />{" "}
-      </div>
-        
+          </Link>
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto navbar-section">
             <Link to="/HeroSection" className="navbar-elements">
               <h3>Home</h3>
             </Link>
-            <Link to="/Skills" className="navbar-elements">
+            <Link to="/Collection" className="navbar-elements">
               <h3>Collection</h3>
             </Link>
             <Link to="/Contact" className="navbar-elements">
               <h3>Contact Us</h3>
             </Link>
-            <Link to="/Documentation" className="navbar-elements">
+            <Link to="/NewArrival" className="navbar-elements">
               <h3>New Arrivals</h3>
 
             </Link>
@@ -42,4 +43,4 @@ function BasicExample() {
   );
 }
 
-export default BasicExample;
+export default Header;
