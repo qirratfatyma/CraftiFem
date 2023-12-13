@@ -87,7 +87,7 @@ h4 {
 }
 
 .form-container {
-  background-color: white;
+  background-color: var(--primary-color);
   padding-top: 4rem;
   padding-bottom: 2rem;
   justify-content: center;
@@ -98,4 +98,55 @@ h4 {
 
 .form-section {
   text-align: left;
+}
+
+
+
+.footer-container {
+  padding-top: 2rem;
+  background-color: var(--primary-color);
+  margin-top: 2rem;
+  display: grid;
+  align-items: center;
+}
+
+.footer-logo {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.footer-logo img {
+  /* margin-left: 4rem; */
+  width: 50%;
+  height: auto;
+}
+.social {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  margin: 1rem 0;
+}
+.social img {
+  width: 30px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.list-unstyled li a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 15px;
+  font-weight: 400;
+  font-family: var(--secondry-font);
+}
+
+.row {
+  width: 100%;
+  text-align: center;
+}
+
+.row p {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: var(--primary-font);
 }

@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
-import logo from "../logo.svg";
+import Logo from "../Logo.svg";
 
 function Header() {
   return (
@@ -11,7 +11,7 @@ function Header() {
       <Container>
         <Navbar.Brand>
           <Link to={"/"} className="navbar-title">
-            <img src={logo} alt="logo" />{" "}
+            <img src={Logo} alt="Logo" />{" "}
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
