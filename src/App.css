@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
+:root {
+  --primary-color: #edceab;
+  --secondary-color: #800020;
+
+  --primary-font: "Poppins", sans-serif;
+  --secondry-font: "Work Sans", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Work+Sans&display=swap");
+body {
+  background-color: var(--primary-color) !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  font-size: 55px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 15px;
+}
+
+h4 {
+  font-size: 8px;
+}
+
+/* Navbar CSS */
+
+.navbar-color {
+  background-color: var(--primary-color) !important;
+}
+
+.navbar img {
+  width: 72px;
+  height: 68px;
+  mix-blend-mode: color-burn;
+}
+
+.navbar-title {
+  font-size: 32px;
+  letter-spacing: 5px;
   color: white;
+  text-decoration: none;
+  margin-left: -4rem;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-section {
+  margin-left: 4rem;
+  box-sizing: border-box;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-elements {
+  display: flex;
+  text-align: center;
+  margin-top: 5px;
+  color: white;
+  text-decoration: none;
+  margin-right: 3rem;
+}
+
+.navbar-elements:hover {
+  color: var(--secondary-color);
+}
+
+.navbar-elements:focus {
+  color: var(--secondary-color);
+}
+
+.navbar-elements h3 {
+  font-size: 20px !important;
+}
+
+.navbar-btn {
+  background-color: var(--btn-color) !important;
+  width: 6rem !important;
+  color: white !important;
+  border-radius: 40px !important;
+  margin-left: 1rem !important;
+}
+
+.navbar-btn:hover {
+  background-color: var(--btn-hover) !important;
+}
+
+.form-container {
+  background-color: white;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+  border-radius: 2rem;
+}
+
+.form-section {
+  text-align: left;
 }
