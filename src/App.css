@@ -155,7 +155,7 @@ h4 {
 
 .contact-section {
   margin-top: 3rem;
-  color: var(--primary-white);
+  color: var(--primary-color);
   padding-bottom: 3rem;
 }
 
@@ -169,6 +169,9 @@ h4 {
   padding-bottom: 3rem;
   font-family: var(--secondry-font);
   font-weight: 400;
+  margin-top: 3rem;
+  color: var(--secondary-color); 
+  
 }
 .contact-title {
   text-align: center;
@@ -178,7 +181,7 @@ h4 {
 }
 
 form {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   display: flex;
   flex-direction: column;
   padding-bottom: 4rem;
@@ -213,7 +216,7 @@ form textarea {
 .contact-section .btn {
   padding: 0.5rem 1rem !important;
   background-color: var(--btn-color) !important;
-  color: var(--primary-color);
+  color: var(--secondary-color);
   font-family: var(--secondry-font);
   font-weight: 400;
   border-color: transparent;
@@ -242,7 +245,7 @@ form textarea {
 }
 
 .two-text {
-  color: var(--secondary-color);
+  color: var(--primary-color);
   font-family: 'Times New Roman', Times, serif;
   font-size: large;
   text-align: center;
@@ -300,5 +303,42 @@ label {
 
 .login-btn:hover {
   background-color: var(--secondary-hover) !important;
+}
+
+
+/* Signup page css */
+
+.Signup-heading h1 {
+  text-align: center;
+  font-size: 32px;
+  color: var(--secondary-color);
+}
+
+form {
+  margin-bottom: 1rem !important;
+}
+.Signup-container {
+  display: flex;
+  margin-top: 2rem;
+  background-color: var(--primary-color);
+}
+
+.Signup-container .footer-container {
+  margin: 6rem !important;
+}
+
+.signup {
+  background-color: var(--secondary-color);
+}
+
+.signup-button {
+  margin-top: 1rem;
+  background-color: var(--btn-color) !important;
+  border-radius: 5px;
+  border-color: transparent;
+  font-size: 18px;
+  background-color: var(--btn-color);
+  color: var(--secondary-color);
+  width: 25rem;
 }
 
