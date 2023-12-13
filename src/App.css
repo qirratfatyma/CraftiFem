@@ -42,7 +42,7 @@ h4 {
 .navbar-title {
   font-size: 32px;
   letter-spacing: 5px;
-  color: white;
+  color: var(--secondary-color) !important;
   text-decoration: none;
   margin-left: -4rem;
 }
@@ -56,13 +56,19 @@ h4 {
   display: flex;
   text-align: center;
   margin-top: 5px;
-  color: white;
+  color: var(--secondary-color) !important;
   text-decoration: none;
   margin-right: 3rem;
 }
+.container {
+  max-width: 1200px; /* Adjust the max-width as needed */
+  margin: 0 auto;
+  padding: 20px;
+  background-color: var(--secondary-color); /* Adjust the background color as needed */
+}
 
 .navbar-elements:hover {
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .navbar-elements:focus {
