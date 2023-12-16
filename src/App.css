@@ -173,6 +173,11 @@ h4 {
   color: var(--secondary-color); 
   
 }
+
+.contact-section h2 {
+  color: var(--secondary-color); /* Change to secondary color */
+}
+
 .contact-title {
   text-align: center;
   padding-top: 3rem;
@@ -194,7 +199,7 @@ form {
 
 form h2 {
   font-size: 1.4rem !important;
-  font-family: var(--primary-font) !important;
+  font-family: var(--secondary-font) !important;
   text-transform: uppercase !important;
   letter-spacing: 0.3px !important;
   text-align: center;
@@ -209,9 +214,9 @@ form textarea {
   padding: 8px 18px;
   font-size: 1.2rem;
   background-color: var(--primary-color);
-  border-color: transparent;
+  border-color: var(--secondary-color);
   border-radius: 0.5rem;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 .contact-section .btn {
   padding: 0.5rem 1rem !important;
@@ -219,18 +224,18 @@ form textarea {
   color: var(--secondary-color);
   font-family: var(--secondry-font);
   font-weight: 400;
-  border-color: transparent;
+  border-color: var(--secondary-color);
   transition: all ease-in-out 300ms;
   cursor: pointer;
 }
 
 .contact-section .btn:hover {
-  border-color: transparent;
+  border-color: var(--secondary-color);
   background-color: var(--btn-hover) !important;
 }
 
 .my-text {
-  color: var(--primary-color);
+  color: var(--secondary-color);
   font-family: 'Times New Roman', Times, serif;
   font-size: xx-large;
   text-align: center;
@@ -276,7 +281,7 @@ label {
 
 .login-container .form-container {
   width: 100%;
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   padding-top: 0;
   /* padding-bottom: 2rem; */
   justify-content: center;
@@ -293,7 +298,7 @@ label {
 .login-btn {
   background-color: var(--btn-color) !important;
   border-radius: 5px;
-  border-color: transparent;
+  border-color: var(--secondary-color);
   font-size: 18px;
   background-color: var(--btn-color);
   color: var(--secondary-color);
